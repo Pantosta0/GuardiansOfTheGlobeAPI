@@ -1,2 +1,1 @@
-# GuardiansOfTheGlobeAPI
-RESTful API made with .NET 6
+# Reto-Sophos-The-Guardians-of-the-Globe
