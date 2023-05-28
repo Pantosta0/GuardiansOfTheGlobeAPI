@@ -1,1 +1,1 @@
-# Reto-Sophos-The-Guardians-of-the-Globe
+# The Guardians Of The Globe RESTful API
