@@ -17,7 +17,7 @@ namespace Persistence
         public static void AddPersistenceInfraestructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-                configuration.GetConnectionString("DefaultConnection"), 
+                configuration.GetConnectionString("Default"), 
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
             #region Repositories
             services.AddTransient(typeof(IRepositoryAsync<>), typeof(MyRepositoryAsync<>));
